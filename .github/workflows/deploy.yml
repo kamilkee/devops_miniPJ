@@ -46,7 +46,7 @@ jobs:
                 - name: Deploy to Railway 
                   env: 
                    RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-                  run: railway up --service devops-minipj --detach
+                  run: railway up --detach
                  
 
 
